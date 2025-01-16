@@ -5,6 +5,17 @@ My solutions to the exercises from [haskellings](https://github.com/MondayMornin
 
 [![](https://github.com/asarkar/haskellings/workflows/CI/badge.svg)](https://github.com/asarkar/haskellings/actions)
 
+## Progression
+
+The first step is to inspect the introduction modules under the [Basic](src/Basic) package. They contain examples of data structures and Haskell syntax. They do not contain exercises and exist to provide a cursory examination of Haskell syntax.
+
+After this, we recommend the following progression of modules:
+
+* [Data](src/Data)
+* [Function](src/Function)
+* [Recursion](src/Recursion)
+* [List](src/List)
+
 ## Running tests
 
 ```

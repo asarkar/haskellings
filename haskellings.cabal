@@ -19,6 +19,12 @@ extra-source-files:
 
 library
   exposed-modules:
+      Basic.Expressions
+      Basic.Types1
+      Basic.Types2
+      Basic.Types3
+      Basic.Types4
+      Basic.Types5
       Data.Data1
       Data.Data2
       Data.Data3
