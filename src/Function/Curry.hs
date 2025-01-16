@@ -1,5 +1,3 @@
--- I AM NOT DONE
-
 module Function.Curry where
 
 {-

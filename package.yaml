@@ -5,7 +5,7 @@ version:             0.1.0.0
 homepage:            https://github.com/asarkar/haskellings#readme
 license:             "Apache-2.0"
 author:              "Abhijit Sarkar"
-copyright:           "2024 Abhijit Sarkar"
+copyright:           "2025 Abhijit Sarkar"
 
 extra-source-files:
 - README.md

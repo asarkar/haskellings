@@ -9,7 +9,7 @@ version:        0.1.0.0
 homepage:       https://github.com/asarkar/haskellings#readme
 author:         Abhijit Sarkar
 maintainer:     Abhijit Sarkar
-copyright:      2024 Abhijit Sarkar
+copyright:      2025 Abhijit Sarkar
 license:        Apache-2.0
 license-file:   LICENSE
 build-type:     Simple
@@ -20,6 +20,12 @@ extra-source-files:
 library
   exposed-modules:
       Function.Curry
+      Function.Functions1
+      Function.Functions2
+      Function.Functions3
+      Function.Functions4
+      Function.Functions5
+      Function.Functions6
   other-modules:
       Paths_haskellings
   hs-source-dirs:
@@ -38,6 +44,12 @@ test-suite haskellings-test
   main-is: Driver.hs
   other-modules:
       Function.CurryTest
+      Function.Functions1Test
+      Function.Functions2Test
+      Function.Functions3Test
+      Function.Functions4Test
+      Function.Functions5Test
+      Function.Functions6Test
       Paths_haskellings
   hs-source-dirs:
       test

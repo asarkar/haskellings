@@ -13,18 +13,21 @@ My solutions to the exercises from [haskellings](https://github.com/MondayMornin
 
 To run all matching tests:
 ```
-./.github/run.sh -m <some_word>
-```
-
-To run exactly matching tests:
-```
-./.github/run.sh -m "/<some_word>/"
+./.github/run.sh -p '<some_word>'
 ```
 
 To run a _specific test_:
 ```
-./.github/run.sh -m "/Ch11/evaluates expression/eval/"
+./.github/run.sh -p '<testGroup>.<testCase>'
 ```
+where `testGroup` and `testCase` are the names of the corresponding Tasty namesakes.
+
+To list all tests, in the format accepted by the `-p` flag:
+```
+./.github/run.sh -l
+```
+
+See more about selection patterns [here](https://github.com/UnkindPartition/tasty?tab=readme-ov-file#patterns).
 
 To run a file containing a `main` method:
 ```
