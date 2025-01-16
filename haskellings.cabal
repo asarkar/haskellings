@@ -26,6 +26,11 @@ library
       Function.Functions4
       Function.Functions5
       Function.Functions6
+      List.Lists1
+      Recursion.Recursion1
+      Recursion.Recursion2
+      Recursion.Recursion3
+      Recursion.Recursion4
   other-modules:
       Paths_haskellings
   hs-source-dirs:
@@ -50,6 +55,10 @@ test-suite haskellings-test
       Function.Functions4Test
       Function.Functions5Test
       Function.Functions6Test
+      Recursion.Recursion1Test
+      Recursion.Recursion2Test
+      Recursion.Recursion3Test
+      Recursion.Recursion4Test
       Paths_haskellings
   hs-source-dirs:
       test
