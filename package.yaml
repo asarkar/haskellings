@@ -40,6 +40,7 @@ ghc-options:
 - -Wno-missing-export-lists
 - -Wno-missing-role-annotations
 - -Wno-type-defaults
+- -Wno-x-partial
 
 library:
   source-dirs: src

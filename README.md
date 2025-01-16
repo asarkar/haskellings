@@ -11,8 +11,9 @@ The first step is to inspect the introduction modules under the [Basic](src/Basi
 
 After this, we recommend the following progression of modules:
 
-* [Data](src/Data)
+* [Syntax](src/Syntax)
 * [Function](src/Function)
+* [Data](src/Data)
 * [Recursion](src/Recursion)
 * [List](src/List)
 
