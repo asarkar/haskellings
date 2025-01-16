@@ -19,6 +19,12 @@ extra-source-files:
 
 library
   exposed-modules:
+      Data.Data1
+      Data.Data2
+      Data.Data3
+      Data.Data4
+      Data.Data5
+      Data.Data6
       Function.Curry
       Function.Functions1
       Function.Functions2
@@ -48,6 +54,9 @@ test-suite haskellings-test
   type: exitcode-stdio-1.0
   main-is: Driver.hs
   other-modules:
+      Data.Data2Test
+      Data.Data4Test
+      Data.Data6Test
       Function.CurryTest
       Function.Functions1Test
       Function.Functions2Test

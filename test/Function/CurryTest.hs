@@ -1,6 +1,6 @@
 module Function.CurryTest where
 
-import Function.Curry as C
+import qualified Function.Curry as C
 import Test.Tasty
 import Test.Tasty.HUnit
 
