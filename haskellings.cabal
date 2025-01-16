@@ -39,6 +39,9 @@ library
       Function.Functions5
       Function.Functions6
       List.Lists1
+      List.Lists2
+      List.Lists3
+      List.Lists4
       Recursion.Recursion1
       Recursion.Recursion2
       Recursion.Recursion3
@@ -70,6 +73,10 @@ test-suite haskellings-test
       Function.Functions4Test
       Function.Functions5Test
       Function.Functions6Test
+      List.Lists1Test
+      List.Lists2Test
+      List.Lists3Test
+      List.Lists4Test
       Recursion.Recursion1Test
       Recursion.Recursion2Test
       Recursion.Recursion3Test
