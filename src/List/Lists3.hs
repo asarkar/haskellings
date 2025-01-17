@@ -47,10 +47,10 @@ shortWords = ["HELLO", "BYE", "CIAO"]
 
 -- Implement addMod3Is2, except now use a list comprehension.
 addMod3Is2 :: [Int] -> [Int]
-addMod3Is2 xs = [go x | x <- xs, mod3Is2 x]
+addMod3Is2 xs = [add3 x | x <- xs, mod3Is2 x]
   where
     mod3Is2 x = x `mod` 3 == 2
-    go = (+ 3)
+    add3 = (+ 3)
 
 -- Take every pairwise product of the numbers, as long as their
 -- sum is less than 30.

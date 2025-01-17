@@ -4,8 +4,8 @@ import qualified List.Lists4 as L4
 import Test.Tasty
 import Test.Tasty.HUnit
 
-test_List4 :: [TestTree]
-test_List4 =
+test_Lists4 :: [TestTree]
+test_Lists4 =
   [ testCase "sumProductDifference 1" $ L4.sumProductDifference [] [] @?= [],
     testCase "sumProductDifference 2" $ L4.sumProductDifference [1, 2] [] @?= [],
     testCase "sumProductDifference 3" $ L4.sumProductDifference [1] [3, 4] @?= [(4, 3, -2)],

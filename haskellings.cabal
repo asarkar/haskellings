@@ -42,6 +42,8 @@ library
       List.Lists2
       List.Lists3
       List.Lists4
+      Monad.Applicatives
+      Monad.Functors
       Recursion.Recursion1
       Recursion.Recursion2
       Recursion.Recursion3
@@ -88,6 +90,8 @@ test-suite haskellings-test
       List.Lists2Test
       List.Lists3Test
       List.Lists4Test
+      Monad.ApplicativesTest
+      Monad.FunctorsTest
       Recursion.Recursion1Test
       Recursion.Recursion2Test
       Recursion.Recursion3Test

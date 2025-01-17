@@ -4,8 +4,8 @@ import qualified List.Lists2 as L2
 import Test.Tasty
 import Test.Tasty.HUnit
 
-test_List2 :: [TestTree]
-test_List2 =
+test_Lists2 :: [TestTree]
+test_Lists2 =
   [ testCase "countdownBy5 1" $ L2.countdownBy5 4 @?= [],
     testCase "countdownBy5 2" $ L2.countdownBy5 5 @?= [5, 0],
     testCase "countdownBy5 3" $ L2.countdownBy5 7 @?= [7, 2],

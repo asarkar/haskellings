@@ -57,10 +57,10 @@ foldr min 9999 [5, 7, 2, 9, 1]
 -- higher order helper functions instead!
 
 addMod3Is2 :: [Int] -> [Int]
-addMod3Is2 = map go . filter mod3Is2
+addMod3Is2 = map add3 . filter mod3Is2
   where
     mod3Is2 x = x `mod` 3 == 2
-    go = (+ 3)
+    add3 = (+ 3)
 
 sumList :: [Int] -> Int
 {- HLINT ignore "Use sum" -}

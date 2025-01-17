@@ -17,6 +17,7 @@ After this, we recommend the following progression of modules:
 * [recursion](src/Recursion)
 * [lists](src/List)
 * [typeclasses](src/Typeclass)
+* [monads](src/Monad)
 
 ## Running tests
 

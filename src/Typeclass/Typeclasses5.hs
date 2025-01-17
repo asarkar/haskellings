@@ -1,5 +1,7 @@
 module Typeclass.Typeclasses5 where
 
+import Control.Arrow ((&&&))
+import qualified Control.Monad as M
 import qualified Text.Printf as P
 
 {-
@@ -83,7 +85,9 @@ instance Debuggable Point3 where
 -- compareAndPrint "Point3 3 4 5" (Point3 6 8 10)
 --   -> (False, "'Point3 3 4 5' vs. 'Point3 6 8 10'")
 compareAndPrint :: (Debuggable a) => String -> a -> (Bool, String)
-compareAndPrint s p = (b, s')
+--- f &&& g :: String -> (a -> Bool, a -> String)
+--- liftM2 :: Monad m => (a1 -> a2 -> r) -> m a1 -> m a2 -> m r
+compareAndPrint = M.liftM2 (&&&) f g
   where
-    s' = P.printf "'%s' vs. '%s'" s (show p)
-    (b, _) = compareFromEntry s p
+    g = (. show) . P.printf "'%s' vs. '%s'"
+    f = (fst .) . compareFromEntry

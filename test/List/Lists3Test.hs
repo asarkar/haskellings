@@ -4,8 +4,8 @@ import qualified List.Lists3 as L3
 import Test.Tasty
 import Test.Tasty.HUnit
 
-test_List3 :: [TestTree]
-test_List3 =
+test_Lists3 :: [TestTree]
+test_Lists3 =
   [ testCase "addMod3Is2 1" $ L3.addMod3Is2 [] @?= [],
     testCase "addMod3Is2 2" $ L3.addMod3Is2 [2] @?= [5],
     testCase "addMod3Is2 3" $ L3.addMod3Is2 [2, 4, 5, 8, 9] @?= [5, 8, 11],
