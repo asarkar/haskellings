@@ -1,6 +1,7 @@
 module Recursion.Recursion4Test where
 
-import Recursion.Recursion4 as R4
+import Recursion.Recursion4 (BinaryTree (..))
+import qualified Recursion.Recursion4 as R4
 import Test.Tasty
 import Test.Tasty.HUnit
 

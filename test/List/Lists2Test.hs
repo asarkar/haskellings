@@ -1,6 +1,6 @@
 module List.Lists2Test where
 
-import List.Lists2 as L2
+import qualified List.Lists2 as L2
 import Test.Tasty
 import Test.Tasty.HUnit
 

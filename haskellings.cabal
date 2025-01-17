@@ -52,6 +52,11 @@ library
       Syntax.Syntax4
       Syntax.Syntax5
       Syntax.Syntax6
+      Typeclass.Typeclasses1
+      Typeclass.Typeclasses2
+      Typeclass.Typeclasses3
+      Typeclass.Typeclasses4
+      Typeclass.Typeclasses5
   other-modules:
       Paths_haskellings
   hs-source-dirs:
@@ -93,6 +98,11 @@ test-suite haskellings-test
       Syntax.Syntax4Test
       Syntax.Syntax5Test
       Syntax.Syntax6Test
+      Typeclass.Typeclasses1Test
+      Typeclass.Typeclasses2Test
+      Typeclass.Typeclasses3Test
+      Typeclass.Typeclasses4Test
+      Typeclass.Typeclasses5Test
       Paths_haskellings
   hs-source-dirs:
       test

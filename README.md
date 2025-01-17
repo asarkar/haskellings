@@ -7,15 +7,16 @@ My solutions to the exercises from [haskellings](https://github.com/MondayMornin
 
 ## Progression
 
-The first step is to inspect the introduction modules under the [Basic](src/Basic) package. They contain examples of data structures and Haskell syntax. They do not contain tests and exist to provide a cursory examination of Haskell syntax.
+The first step is to inspect the introduction modules under the [basics](src/Basic) package. They contain examples of data structures and Haskell syntax. They do not contain tests and exist to provide a cursory examination of Haskell syntax.
 
 After this, we recommend the following progression of modules:
 
-* [Syntax](src/Syntax)
-* [Function](src/Function)
-* [Data](src/Data)
-* [Recursion](src/Recursion)
-* [List](src/List)
+* [syntax](src/Syntax)
+* [functions](src/Function)
+* [data](src/Data)
+* [recursion](src/Recursion)
+* [lists](src/List)
+* [typeclasses](src/Typeclass)
 
 ## Running tests
 

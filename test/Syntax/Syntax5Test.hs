@@ -1,6 +1,6 @@
 module Syntax.Syntax5Test where
 
-import Syntax.Syntax5 as S5
+import qualified Syntax.Syntax5 as S5
 import Test.Tasty
 import Test.Tasty.HUnit
 

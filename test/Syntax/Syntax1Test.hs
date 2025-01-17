@@ -1,6 +1,6 @@
 module Syntax.Syntax1Test where
 
-import Syntax.Syntax1 as S1
+import qualified Syntax.Syntax1 as S1
 import Test.Tasty
 import Test.Tasty.HUnit
 

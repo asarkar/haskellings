@@ -1,6 +1,6 @@
 module Recursion.Recursion3Test where
 
-import Recursion.Recursion3 as R3
+import qualified Recursion.Recursion3 as R3
 import Test.Tasty
 import Test.Tasty.HUnit
 

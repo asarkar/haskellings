@@ -1,6 +1,6 @@
 module Syntax.Syntax3Test where
 
-import Syntax.Syntax3 as S3
+import qualified Syntax.Syntax3 as S3
 import Test.Tasty
 import Test.Tasty.HUnit
 
