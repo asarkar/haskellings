@@ -44,6 +44,18 @@ library
       List.Lists4
       Monad.Applicatives
       Monad.Functors
+      Monad.IO1
+      Monad.IO2
+      Monad.IO3
+      Monad.Monads1
+      Monad.Monads2
+      Monad.Monads3
+      Monad.Monads4
+      Monad.Monads5
+      Monad.Monoids
+      Monad.Ops
+      Monad.Transformers1
+      Monad.Transformers2
       Recursion.Recursion1
       Recursion.Recursion2
       Recursion.Recursion3
@@ -70,6 +82,10 @@ library
   ghc-options: -Werror -Weverything -Wno-missing-import-lists -Wno-missed-specializations -Wno-all-missed-specializations -Wno-missing-local-signatures -Wno-monomorphism-restriction -Wno-missing-safe-haskell-mode -Wno-safe -Wno-unsafe -Wno-implicit-prelude -Wno-prepositive-qualified-module -Wno-missing-kind-signatures -Wno-unused-top-binds -Wno-missing-export-lists -Wno-missing-role-annotations -Wno-type-defaults -Wno-x-partial
   build-depends:
       base >4 && <5
+    , directory
+    , filepath
+    , mtl
+    , transformers
   default-language: Haskell2010
 
 test-suite haskellings-test
@@ -92,6 +108,14 @@ test-suite haskellings-test
       List.Lists4Test
       Monad.ApplicativesTest
       Monad.FunctorsTest
+      Monad.Monads1Test
+      Monad.Monads2Test
+      Monad.Monads3Test
+      Monad.Monads4Test
+      Monad.Monads5Test
+      Monad.MonoidsTest
+      Monad.OpsTest
+      Monad.Transformers1Test
       Recursion.Recursion1Test
       Recursion.Recursion2Test
       Recursion.Recursion3Test
@@ -120,6 +144,7 @@ test-suite haskellings-test
   build-depends:
       base >4 && <5
     , haskellings
+    , mtl
     , tasty
     , tasty-hunit
   default-language: Haskell2010
